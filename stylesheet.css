@@ -1,0 +1,98 @@
+img {
+    width: 50px;
+}
+.logo{
+    float: left;
+    margin-right: 20px;
+}
+ nav {
+    float: left;
+  }
+ nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  body {
+    font-family:"Gothic, sans-serif";
+    margin: auto 0;
+  }
+
+  iframe {
+    width:100%;
+  }
+
+  .divp1 {
+    background-color: black;
+    text-align: center;
+    display: grid;
+    align-items: center;
+  }
+
+  .divp3 {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    background-image: url(https://www.thenorthface.com/content/publish/caas/v1/media/366452/data/757658c303821662a1a44c58ea4b157a/230912-tech-page-circaloft-circular-design-bg-image-t.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .pg1 {
+    color: white;
+    font-size: 70px;
+  }
+
+  .pg2,.pg4{
+    color: white;
+    font-size: 20px;
+    padding: 0 25% 0 25%;
+  }
+
+  .pg3 {
+    color: white;
+    font-size: 50px;
+  }
+
+  footer {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+  }
+  .footer-menu{
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer-item {
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+  }
+  .logo_footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    margin-top: auto;
+  }
+  .bottombar {
+    list-style-type: none;
+    margin-left: 50px;
+    padding: 5px;
+  }
+  .bottombarlist {
+    display: inline;
+    margin-right: 10px;
+  }
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
