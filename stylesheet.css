@@ -5,6 +5,12 @@ img {
     float: left;
     margin-right: 20px;
 }
+header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
  nav {
     float: left;
   }
@@ -15,9 +21,9 @@ img {
   nav ul li {
     display: inline;
     margin-right: 10px;
+    font-family: 'Gothic', sans-serif;
   }
   body {
-    font-family:"Gothic, sans-serif";
     margin: auto 0;
   }
 
@@ -30,6 +36,7 @@ img {
     text-align: center;
     display: grid;
     align-items: center;
+    padding-bottom: 50px;
   }
 
   .divp3 {
@@ -65,10 +72,16 @@ img {
     padding: 20px 0;
     text-align: center;
     position: relative;
+    font-family: 'Gothic', sans-serif;
   }
   .footer-menu{
     display: flex;
     justify-content: space-around;
+  }
+  .footer-content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
   .footer-item {
     padding: 10px;
@@ -76,23 +89,23 @@ img {
     text-align: left;
   }
   .logo_footer {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-    margin-top: auto;
+    margin-right: 20px;
+  }
+  .footer-info {
+    text-align: left;
+  }
+  .footer-info p {
+    margin: 0;
+    font-size: 12px;
   }
   .bottombar {
     list-style-type: none;
-    margin-left: 50px;
-    padding: 5px;
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
   }
   .bottombarlist {
     display: inline;
     margin-right: 10px;
-  }
-  .footer-content {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    font-size: 14px;
   }
